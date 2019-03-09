@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+background: #eee;
+width: 30px;
+height: 40px;
+text-align: center;
+}
+.a1{
+    position: fixed;
+    width: 300px;
+    height: 100px;
+    z-index: 1;
+}
+.a2{
+    position: relative;
+    left: 280px;
+    width: 500px;
+    height: 200px;
+    margin: 20px 0px;
+
+}
+.a3{
+    position: absolute;
+    background: #999;
+    left: 700px;
+    top: 300px;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 100px yellow;
+}
+.centertext{
+    width: 500px;
+    height: 100%;
+    left: 280px;
+    position: relative;
+}
+
+.centertext2{
+    width: 500px;
+    height: 100%;
+    left: 280px;
+    position: relative;
+}
